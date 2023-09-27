@@ -31,6 +31,7 @@ This Python program provides a Sudoku Solver using a backtracking algorithm. It 
 
 Suppose you have the following Sudoku puzzle:
 
+```bash
 0 0 0 0 0 8 3 0 0
 0 0 0 0 2 4 0 9 0
 0 0 4 0 7 0 0 0 6
@@ -40,10 +41,11 @@ Suppose you have the following Sudoku puzzle:
 4 0 0 0 9 0 1 0 0
 0 3 0 4 6 0 0 0 0
 0 0 5 8 0 0 0 0 0
-
+```
 
 The program will solve it and display the solution:
 
+```bash
 1 6 7 9 4 8 3 5 2
 3 8 6 1 2 4 7 9 5
 5 9 4 3 7 2 8 1 6
@@ -53,7 +55,7 @@ The program will solve it and display the solution:
 4 7 9 6 3 5 1 2 8
 8 3 1 4 6 2 9 5 7
 2 4 5 8 9 1 7 6 3
-
+```
 
 ## How it Works
 
