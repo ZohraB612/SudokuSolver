@@ -102,6 +102,10 @@ if __name__ == "__main__":
 
     if choice == '1':
         PUZZLE = create_sudoku()
+        SUDOKU = SudokuSolver(PUZZLE)
+        SUDOKU.generate_solution() 
+        SUDOKU.print_container() 
+
     elif choice == '2':
         SUDOKU.input_custom()
 
@@ -138,6 +142,7 @@ if __name__ == "__main__":
         puzzles = get_all_puzzles()
         for puzzle in puzzles:
             print(f"ID: {puzzle[0]}, Puzzle: {puzzle[1]}, Solution: {puzzle[2]}")
+    
     elif choice == '4':
         puzzle_id = input("Enter the ID of the puzzle you want to retrieve: ")
         puzzle = get_puzzle_by_id(puzzle_id)
