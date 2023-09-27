@@ -1,7 +1,5 @@
 import sqlite3
 
-import sqlite3
-
 # Establish connection and cursor
 conn = sqlite3.connect('sudoku_puzzles.db')
 cursor = conn.cursor()
